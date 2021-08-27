@@ -27,16 +27,26 @@ const person = {
 
 }
 
+const printName = function ({ name }) {
+    console.log(name)
+}
+
+printName(person)
+
 // person.greetin()
 
-const hobbies = ['sex', 'and sex']
+const hobbies = ['sex', 'and sex'];
+const [h1, h2] = hobbies;
 // for (let hobby of hobbies) {
 //     console.log(hobby)
 // }
 
 // console.log(hobbies.map(h => 'hobbb: ' + h))
 
-hobbies.push('eating');
-console.log(hobbies.map(h => 'hobbb: ' + h))
+// hobbies.push('eating');
+// console.log(hobbies.map(h => 'hobbb: ' + h))
+
+// const copyArray = hobbies.slice();
+// const copyArray = [...hobbies];
 
 
