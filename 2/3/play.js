@@ -27,4 +27,16 @@ const person = {
 
 }
 
-person.greetin()
+// person.greetin()
+
+const hobbies = ['sex', 'and sex']
+// for (let hobby of hobbies) {
+//     console.log(hobby)
+// }
+
+// console.log(hobbies.map(h => 'hobbb: ' + h))
+
+hobbies.push('eating');
+console.log(hobbies.map(h => 'hobbb: ' + h))
+
+
