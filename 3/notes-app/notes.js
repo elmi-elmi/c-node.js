@@ -1,3 +1,4 @@
+
 const getNotes = function () {
     console.log('You notes...')
 }
